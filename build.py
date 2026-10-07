@@ -13,7 +13,7 @@ Usage : python3 build.py   → régénère listes/*.html + index.html
 import html, json, pathlib, re, urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
-BASE_URL = "https://alexwattel1.github.io/courses-bring/"
+BASE_URL = "https://hailp.tech/courses-bring/"
 DEEPLINK = "https://api.getbring.com/rest/bringrecipes/deeplink?url={url}&source=web&baseQuantity=1&requestedQuantity=1"
 
 def parse(path):
