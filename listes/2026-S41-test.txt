@@ -1,0 +1,31 @@
+# Courses S41 — test (semaine A du plan budget)
+## Fruits & légumes
+Pommes de terre | 2,5 kg
+Carottes | 1 kg
+Poireaux | 1 kg
+Oignons | 1 kg
+Ail | 1 tête
+Butternut | 1
+Épinards surgelés | 1 kg
+Champignons de Paris | 500 g
+Salade | 2
+Pommes | 1,5 kg
+Bananes | 1 kg
+Poires | 1 kg
+## Viande
+Poulet fermier entier | 1,6 kg
+Lardons | 200 g
+Bœuf à bourguignon | 700 g
+## Crèmerie
+Œufs | 12
+Lait | 2 L
+Beurre | 250 g
+Yaourt nature | 2 kg
+Comté | 250 g
+Crème fraîche | 20 cl
+Parmesan | 150 g
+## Divers
+Pain | 3
+Citron | 1
+Vin rouge de cuisine | 1
+Petits-suisses | 1 paquet
