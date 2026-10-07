@@ -30,7 +30,7 @@ CSS = """body{font-family:-apple-system,system-ui,sans-serif;max-width:680px;mar
 .btn{display:block;background:#2a9d8f;color:#fff;text-align:center;padding:14px;border-radius:10px;font-size:18px;text-decoration:none;margin:16px 0}
 h1{line-height:1.2} h2{font-size:19px;margin-top:26px;border-bottom:1px solid #ddd} ul,ol{padding-left:22px} li{margin:6px 0} small{color:#666}
 .meta{color:#666;font-size:15px} ol li{margin:12px 0}"""
-BASE_URL = "https://hailp.tech/courses-bring/"
+BASE_URL = "https://wattel-maison.github.io/courses-bring/"
 DEEPLINK = "https://api.getbring.com/rest/bringrecipes/deeplink?url={url}&source=web&baseQuantity=1&requestedQuantity=1"
 
 def parse(path):
