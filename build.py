@@ -15,7 +15,7 @@ RECETTES_DIR = pathlib.Path.home() / "dev/Second Brain AWA/RESSOURCES/Cuisine/Re
 BASE_URL = "https://wattel-maison.github.io/courses-bring/"
 BRING = "https://api.getbring.com/rest/bringrecipes/deeplink?url={url}&source=web&baseQuantity={q}&requestedQuantity={q}"
 
-FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2338bdf8'/%3E%3Cstop offset='.35' stop-color='%23a78bfa'/%3E%3Cstop offset='.65' stop-color='%23f472b6'/%3E%3Cstop offset='1' stop-color='%23fbbf24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='url(%23g)' stroke-width='6' stroke-dasharray='12.3 5' stroke-dashoffset='6'/%3E%3C/svg%3E")
+FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%8D%B3%3C/text%3E%3C/svg%3E"
 
 CSS = """
 :root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--muted:#86868b;--body:#4b4b50;--line:#e8e8ed;--accent:#0071e3;--accent-soft:#eaf3fe;--hg:linear-gradient(120deg,#0090ff,#7a5cff);color-scheme:light}
@@ -26,7 +26,6 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 header{padding:14px 0;background:rgba(255,255,255,.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;gap:14px}
 .brand{font-size:24px;font-weight:700;letter-spacing:-.02em;color:var(--ink);display:flex;align-items:center;gap:9px}.brand:hover{text-decoration:none}
-.brand img{width:28px;height:28px}
 .ai{background:var(--hg);-webkit-background-clip:text;background-clip:text;color:transparent}
 .spacer{flex:1}
 nav.menu{display:flex;gap:18px;font-size:14px}nav.menu a{color:var(--body);white-space:nowrap}nav.menu a.on{color:var(--ink);font-weight:600}
@@ -74,11 +73,11 @@ footer{color:var(--muted);font-size:13px;text-align:center;padding:30px 0}
 def page(title, body, depth=0, active=""):
     p = "../" * depth
     nav = "".join(f'<a href="{p}{h}" class="{"on" if active == k else ""}">{t}</a>' for k, h, t in
-                  [("menus", "", "Menus"), ("recettes", "recettes.html", "Recettes"), ("listes", "listes.html", "Listes")])
+                  [("menus", "index.html", "Menus"), ("recettes", "recettes.html", "Recettes"), ("listes", "listes.html", "Listes")])
     return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)} — Cuisine maison</title>
 <meta name="theme-color" content="#f5f5f7"><link rel="icon" href="{FAVICON}"><style>{CSS}</style></head>
-<body><header><div class="wrap"><a class="brand" href="{p}"><img src="{FAVICON}" alt=""><span>Cuisine <span class="ai">maison</span></span></a>
+<body><header><div class="wrap"><a class="brand" href="{p}index.html"><span>Cuisine <span class="ai">maison</span></span></a>
 <span class="spacer"></span><nav class="menu">{nav}</nav></div></header>
 <main><div class="wrap">{body}</div></main>
 <footer>Menus, recettes et listes de la famille · généré depuis le second brain</footer></body></html>"""
