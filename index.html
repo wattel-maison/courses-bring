@@ -1,4 +1,74 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Listes de courses</title>
-<style>body{font-family:-apple-system,system-ui,sans-serif;max-width:640px;margin:0 auto;padding:16px;line-height:1.7}</style></head>
-<body><h1>Listes de courses</h1><ul><li><a href='listes/2026-S42.html'>Courses S42 — sam. 10 au ven. 16 octobre</a> <small>(56 articles)</small></li><li><a href='listes/2026-S41-test.html'>Courses S41 — test (semaine A du plan budget)</a> <small>(26 articles)</small></li></ul><h1>Recettes</h1><ul><li><a href='recettes/dahl-au-lait-de-coco.html'>Dahl au lait de coco</a> <small>Frichti</small></li><li><a href='recettes/joues-de-porc-au-cidre.html'>Joues de porc au cidre</a> <small>Whoogy&#x27;s — Daylycieux</small></li><li><a href='recettes/minestrone.html'>Minestrone</a> <small>Whoogy&#x27;s — Daylycieux</small></li><li><a href='recettes/orecchiette-aux-brocolis-et-creme-de-parmesan.html'>Orecchiette aux brocolis et crème de parmesan</a> <small>Frichti</small></li><li><a href='recettes/poisson-croustillant-puree-de-petits-pois-a-la-menthe-et-pommes-de-terre-au-beurre.html'>Poisson croustillant, purée de petits pois à la menthe et pommes de terre au beurre</a> <small>Whoogy&#x27;s — Daylycieux</small></li><li><a href='recettes/poulet-roti-croustillant-aux-poireaux-crisp-hot-roast-chicken-with-leeks.html'>Poulet rôti croustillant aux poireaux (Crisp, Hot Roast Chicken with Leeks)</a> <small>Alison Roman — Something from Nothing</small></li><li><a href='recettes/tarte-flambee.html'>Tarte flambée</a> <small>Whoogy&#x27;s — Daylycieux</small></li></ul></body></html>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Menus — Cuisine maison</title>
+<meta name="theme-color" content="#f5f5f7"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2338bdf8'/%3E%3Cstop offset='.35' stop-color='%23a78bfa'/%3E%3Cstop offset='.65' stop-color='%23f472b6'/%3E%3Cstop offset='1' stop-color='%23fbbf24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='url(%23g)' stroke-width='6' stroke-dasharray='12.3 5' stroke-dashoffset='6'/%3E%3C/svg%3E"><style>
+:root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--muted:#86868b;--body:#4b4b50;--line:#e8e8ed;--accent:#0071e3;--accent-soft:#eaf3fe;--hg:linear-gradient(120deg,#0090ff,#7a5cff);color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:0 16px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+header{padding:14px 0;background:rgba(255,255,255,.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:14px}
+.brand{font-size:24px;font-weight:700;letter-spacing:-.02em;color:var(--ink);display:flex;align-items:center;gap:9px}.brand:hover{text-decoration:none}
+.brand img{width:28px;height:28px}
+.ai{background:var(--hg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.spacer{flex:1}
+nav.menu{display:flex;gap:18px;font-size:14px}nav.menu a{color:var(--body);white-space:nowrap}nav.menu a.on{color:var(--ink);font-weight:600}
+main{padding:36px 0 72px}
+h1{font-size:clamp(34px,7vw,56px);line-height:1.05;font-weight:800;letter-spacing:-.04em;margin:0 0 10px;text-wrap:balance}
+h1 em{font-style:normal;background:var(--hg);-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.05em}
+.lede{font-size:18px;color:var(--body);max-width:38em;margin:0 0 30px}
+h2{font-size:clamp(24px,4vw,32px);line-height:1.1;font-weight:800;letter-spacing:-.03em;margin:0 0 6px}
+h3{font-size:19px;font-weight:700;margin:26px 0 8px;letter-spacing:-.01em}
+.card{background:var(--card);border-radius:16px;padding:22px 24px;box-shadow:0 1px 3px rgba(0,0,0,.05);margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 22px;border-radius:980px;font-weight:500;font-size:16px;min-height:44px;transition:filter .15s}
+.btn:hover{filter:brightness(1.07);text-decoration:none}
+.btn-primary{background:linear-gradient(135deg,#0090ff,#7a5cff);color:#fff}
+.btn-ghost{background:#e8e8ed;color:var(--ink)}
+.btn-sm{padding:7px 14px;font-size:14px;min-height:34px}
+.pill{font-size:11px;font-weight:700;border-radius:980px;padding:3px 10px;letter-spacing:.03em;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.muted{color:var(--muted);font-size:14px}
+.meta{color:var(--body);font-size:15px;margin:0 0 18px}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:left;padding:0 8px 8px;font-weight:600}
+td{padding:10px 8px;border-top:1px solid var(--line);vertical-align:middle}
+td.day{white-space:nowrap;color:var(--body);font-size:14px;width:1%}
+td.cost{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;width:1%}
+td.chk{width:1%;padding-right:0}
+input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent);cursor:pointer}
+tr.off td:not(.chk){opacity:.4;text-decoration:line-through}
+tr.off td.cost{text-decoration:none}
+.total{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:2px solid var(--ink)}
+.total b{font-size:26px;letter-spacing:-.02em}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.weekhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.weekhead .dates{color:var(--body)}
+ul.ing{padding-left:22px;font-size:18px}ul.ing li{margin:5px 0}
+ol.steps{padding-left:24px;font-size:18px}ol.steps li{margin:14px 0}
+ul.notes{padding-left:22px;color:var(--body)}
+.rayon h3{margin-top:18px}
+.recipes{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.recipes a{display:block;background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.05);color:var(--ink);font-weight:600;line-height:1.3}
+.recipes a small{display:block;color:var(--muted);font-weight:400;margin-top:4px;font-size:13px}
+.recipes a:hover{text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+footer{color:var(--muted);font-size:13px;text-align:center;padding:30px 0}
+@media (max-width:600px){td,th{padding-left:4px;padding-right:4px}.btn{width:100%}}
+</style></head>
+<body><header><div class="wrap"><a class="brand" href=""><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2338bdf8'/%3E%3Cstop offset='.35' stop-color='%23a78bfa'/%3E%3Cstop offset='.65' stop-color='%23f472b6'/%3E%3Cstop offset='1' stop-color='%23fbbf24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='url(%23g)' stroke-width='6' stroke-dasharray='12.3 5' stroke-dashoffset='6'/%3E%3C/svg%3E" alt=""><span>Cuisine <span class="ai">maison</span></span></a>
+<span class="spacer"></span><nav class="menu"><a href="" class="on">Menus</a><a href="recettes.html" class="">Recettes</a><a href="listes.html" class="">Listes</a></nav></div></header>
+<main><div class="wrap"><h1>Les menus de la <em>semaine</em></h1><p class="lede">Une ligne par recette. Décochez ce qu'on ne fera pas : le coût se recalcule. Chaque recette a sa fiche et son bouton Bring.</p><section class="card week" data-week="S42" data-base="28">
+<div class="weekhead"><h2>S42</h2><span class="dates">du samedi 10 au vendredi 16 octobre 2026</span></div>
+<p class="meta">Midis à la maison samedi, dimanche, mercredi · lunchbox mardi et jeudi · poisson du dimanche.</p>
+<table><thead><tr><th></th><th>Jour</th><th>Recette</th><th style="text-align:right">Coût</th></tr></thead><tbody><tr data-i="0" data-cost="5"><td class="chk"><input type="checkbox" checked aria-label="prendre Coquillettes jambon-fromage"></td><td class="day">Sam 10<br><span class="muted">midi</span></td><td>Coquillettes jambon-fromage<br><span class="muted">Daylycieux p.128</span> </td><td class="cost">5 €</td></tr><tr data-i="1" data-cost="22"><td class="chk"><input type="checkbox" checked aria-label="prendre Joues de porc au cidre"></td><td class="day">Sam 10<br><span class="muted">soir → dim midi</span></td><td><a href="recettes/joues-de-porc-au-cidre.html">Joues de porc au cidre</a><br><span class="muted">Daylycieux p.178</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Fjoues-de-porc-au-cidre.html&source=web&baseQuantity=6&requestedQuantity=6">Bring</a></td><td class="cost">22 €</td></tr><tr data-i="2" data-cost="18"><td class="chk"><input type="checkbox" checked aria-label="prendre Poisson croustillant, purée de petits pois à la menthe"></td><td class="day">Dim 11<br><span class="muted">soir</span></td><td><a href="recettes/poisson-croustillant-puree-de-petits-pois-a-la-menthe-et-pommes-de-terre-au-beurre.html">Poisson croustillant, purée de petits pois à la menthe</a><br><span class="muted">Daylycieux p.84</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Fpoisson-croustillant-puree-de-petits-pois-a-la-menthe-et-pommes-de-terre-au-beurre.html&source=web&baseQuantity=4&requestedQuantity=4">Bring</a></td><td class="cost">18 €</td></tr><tr data-i="3" data-cost="9"><td class="chk"><input type="checkbox" checked aria-label="prendre Dahl au lait de coco"></td><td class="day">Lun 12<br><span class="muted">soir → lunchbox mar</span></td><td><a href="recettes/dahl-au-lait-de-coco.html">Dahl au lait de coco</a><br><span class="muted">Frichti p.230</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Fdahl-au-lait-de-coco.html&source=web&baseQuantity=6&requestedQuantity=6">Bring</a></td><td class="cost">9 €</td></tr><tr data-i="4" data-cost="22"><td class="chk"><input type="checkbox" checked aria-label="prendre Poulet rôti croustillant aux poireaux"></td><td class="day">Mar 13<br><span class="muted">soir → mer midi</span></td><td><a href="recettes/poulet-roti-croustillant-aux-poireaux-crisp-hot-roast-chicken-with-leeks.html">Poulet rôti croustillant aux poireaux</a><br><span class="muted">Something from Nothing p.262</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Fpoulet-roti-croustillant-aux-poireaux-crisp-hot-roast-chicken-with-leeks.html&source=web&baseQuantity=6&requestedQuantity=6">Bring</a></td><td class="cost">22 €</td></tr><tr data-i="5" data-cost="12"><td class="chk"><input type="checkbox" checked aria-label="prendre Orecchiette aux brocolis et crème de parmesan"></td><td class="day">Mer 14<br><span class="muted">soir → lunchbox jeu</span></td><td><a href="recettes/orecchiette-aux-brocolis-et-creme-de-parmesan.html">Orecchiette aux brocolis et crème de parmesan</a><br><span class="muted">Frichti p.140</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Forecchiette-aux-brocolis-et-creme-de-parmesan.html&source=web&baseQuantity=6&requestedQuantity=6">Bring</a></td><td class="cost">12 €</td></tr><tr data-i="6" data-cost="10"><td class="chk"><input type="checkbox" checked aria-label="prendre Minestrone"></td><td class="day">Jeu 15<br><span class="muted">soir → congélateur</span></td><td><a href="recettes/minestrone.html">Minestrone</a><br><span class="muted">Daylycieux p.160</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Fminestrone.html&source=web&baseQuantity=6&requestedQuantity=6">Bring</a></td><td class="cost">10 €</td></tr><tr data-i="7" data-cost="8"><td class="chk"><input type="checkbox" checked aria-label="prendre Tarte flambée"></td><td class="day">Ven 16<br><span class="muted">soir</span></td><td><a href="recettes/tarte-flambee.html">Tarte flambée</a><br><span class="muted">Daylycieux p.48</span> <a class="pill" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Fwattel-maison.github.io%2Fcourses-bring%2Frecettes%2Ftarte-flambee.html&source=web&baseQuantity=4&requestedQuantity=4">Bring</a></td><td class="cost">8 €</td></tr></tbody>
+<tfoot><tr><td></td><td class="day">Base</td><td><span class="muted">Petit-déj, goûters, fruits, laitages, pain</span></td><td class="cost">28 €</td></tr></tfoot></table>
+<div class="total"><span class="muted">Coût estimé des recettes cochées, ± 15 %</span><b class="sum"></b></div>
+<div class="actions"><a class="btn btn-primary" href="listes/2026-S42.html">Liste de courses → Bring</a></div></section><script>
+document.querySelectorAll('.week').forEach(w=>{
+  const key='menu-'+w.dataset.week, base=+w.dataset.base;
+  let st={}; try{st=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){}
+  const rows=[...w.querySelectorAll('tbody tr')];
+  const sum=()=>{let t=base;rows.forEach(r=>{const on=r.querySelector('input').checked;r.classList.toggle('off',!on);if(on)t+=+r.dataset.cost});w.querySelector('.sum').textContent=Math.round(t)+' €'};
+  rows.forEach(r=>{const c=r.querySelector('input');if(st[r.dataset.i]===false)c.checked=false;
+    c.addEventListener('change',()=>{st[r.dataset.i]=c.checked;try{localStorage.setItem(key,JSON.stringify(st))}catch(e){};sum()})});
+  sum();
+});</script></div></main>
+<footer>Menus, recettes et listes de la famille · généré depuis le second brain</footer></body></html>

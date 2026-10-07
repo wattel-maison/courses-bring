@@ -1,0 +1,17 @@
+{
+  "semaine": "S42",
+  "dates": "du samedi 10 au vendredi 16 octobre 2026",
+  "liste": "2026-S42",
+  "basiques": 28,
+  "note": "Midis à la maison samedi, dimanche, mercredi · lunchbox mardi et jeudi · poisson du dimanche.",
+  "recettes": [
+    {"jour": "Sam 10", "repas": "midi", "titre": "Coquillettes jambon-fromage", "livre": "Daylycieux", "page": 128, "cout": 5},
+    {"jour": "Sam 10", "repas": "soir → dim midi", "titre": "Joues de porc au cidre", "slug": "joues-de-porc-au-cidre", "livre": "Daylycieux", "page": 178, "cout": 22},
+    {"jour": "Dim 11", "repas": "soir", "titre": "Poisson croustillant, purée de petits pois à la menthe", "slug": "poisson-croustillant-puree-de-petits-pois-a-la-menthe-et-pommes-de-terre-au-beurre", "livre": "Daylycieux", "page": 84, "cout": 18},
+    {"jour": "Lun 12", "repas": "soir → lunchbox mar", "titre": "Dahl au lait de coco", "slug": "dahl-au-lait-de-coco", "livre": "Frichti", "page": 230, "cout": 9},
+    {"jour": "Mar 13", "repas": "soir → mer midi", "titre": "Poulet rôti croustillant aux poireaux", "slug": "poulet-roti-croustillant-aux-poireaux-crisp-hot-roast-chicken-with-leeks", "livre": "Something from Nothing", "page": 262, "cout": 22},
+    {"jour": "Mer 14", "repas": "soir → lunchbox jeu", "titre": "Orecchiette aux brocolis et crème de parmesan", "slug": "orecchiette-aux-brocolis-et-creme-de-parmesan", "livre": "Frichti", "page": 140, "cout": 12},
+    {"jour": "Jeu 15", "repas": "soir → congélateur", "titre": "Minestrone", "slug": "minestrone", "livre": "Daylycieux", "page": 160, "cout": 10},
+    {"jour": "Ven 16", "repas": "soir", "titre": "Tarte flambée", "slug": "tarte-flambee", "livre": "Daylycieux", "page": 48, "cout": 8}
+  ]
+}
