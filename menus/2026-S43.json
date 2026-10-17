@@ -1,0 +1,16 @@
+{
+  "semaine": "S43",
+  "dates": "du dimanche 18 au vendredi 23 octobre 2026 (midi)",
+  "liste": "2026-S43",
+  "basiques": 24,
+  "note": "Semaine budget bas · samedi couvert par les restes · midis maison dim, lun, mer, ven · lunchbox mardi et jeudi · poisson du dimanche.",
+  "recettes": [
+    {"jour": "Dim 18", "repas": "midi", "titre": "Bâtonnets de poisson à la noix de coco", "slug": "batonnets-de-poisson-a-la-noix-de-coco", "livre": "Simple", "page": 252, "cout": 16},
+    {"jour": "Dim 18", "repas": "midi", "titre": "Frites au four", "slug": "frites-au-four", "livre": "Simple", "page": 138, "cout": 3},
+    {"jour": "Dim 18", "repas": "soir → lun midi", "titre": "Tarte fine aux champignons", "slug": "tarte-fine-aux-champignons", "livre": "Frichti", "page": 250, "cout": 10},
+    {"jour": "Lun 19", "repas": "soir → lunchbox mar", "titre": "Saucisse lentilles", "slug": "saucisse-lentilles", "livre": "Daylycieux", "page": 158, "cout": 17},
+    {"jour": "Mar 20", "repas": "soir → mer midi", "titre": "Gratin de coquillettes, crème de chou-fleur et cheddar", "slug": "gratin-de-coquillettes-creme-de-chou-fleur-et-cheddar", "livre": "Daylycieux", "page": 88, "cout": 10},
+    {"jour": "Mer 21", "repas": "soir → lunchbox jeu", "titre": "Poulet sauce teriyaki et riz", "slug": "poulet-sauce-teriyaki-et-riz", "livre": "Frichti", "page": 182, "cout": 17},
+    {"jour": "Jeu 22", "repas": "soir → ven midi", "titre": "Tortilla", "slug": "tortilla", "livre": "Whoogy's tome 2", "page": 128, "cout": 11}
+  ]
+}
