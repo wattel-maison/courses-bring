@@ -1,0 +1,17 @@
+{
+  "semaine": "S44",
+  "dates": "du samedi 24 (soir) au samedi 31 octobre 2026",
+  "liste": "2026-S44",
+  "basiques": 28,
+  "note": "Semaine complète en options : décochez ce que vous ne faites pas · déjà à la maison : sauce teriyaki, riz, cannellonis, poivrons, pommes de terre de la tortilla · midis maison dim, lun, mer, ven, sam · lunchbox mardi et jeudi · poisson du dimanche.",
+  "recettes": [
+    {"jour": "Sam 24", "repas": "soir → dim soir", "titre": "Tortilla", "slug": "tortilla", "livre": "Whoogy's tome 2", "page": 128, "cout": 10},
+    {"jour": "Dim 25", "repas": "midi → lun midi", "titre": "Moqueca de poisson", "slug": "moqueca-de-poisson", "livre": "Frichti", "page": 214, "cout": 22},
+    {"jour": "Lun 26", "repas": "soir → lunchbox mar", "titre": "Poulet sauce teriyaki et riz", "slug": "poulet-sauce-teriyaki-et-riz", "livre": "Frichti", "page": 182, "cout": 18},
+    {"jour": "Mar 27", "repas": "soir → mer midi", "titre": "Couscous veggie", "slug": "couscous-veggie", "livre": "Frichti", "page": 258, "cout": 13},
+    {"jour": "Mer 28", "repas": "soir → lunchbox jeu", "titre": "Cannellonis à la bolognaise au fenouil", "slug": "bolognaise-au-fenouil-bolognese-with-fennel-en-cannellonis", "livre": "Something from Nothing", "page": 246, "cout": 26},
+    {"jour": "Jeu 29", "repas": "soir", "titre": "Croque-monsieur maison", "slug": "croque-monsieur-maison", "livre": "Frichti", "page": 38, "cout": 12},
+    {"jour": "Ven 30", "repas": "soir", "titre": "Nouilles, soja et cébettes", "slug": "nouilles-soja-et-cebettes", "livre": "Daylycieux", "page": 72, "cout": 6},
+    {"jour": "Sam 31", "repas": "soir → dim midi", "titre": "Carbonades flamandes", "slug": "carbonades-flamandes", "livre": "Whoogy's tome 2", "page": 206, "cout": 22}
+  ]
+}
