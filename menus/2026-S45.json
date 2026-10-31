@@ -1,0 +1,72 @@
+{
+  "semaine": "S45",
+  "dates": "du dimanche 1er (midi) au samedi 7 novembre 2026",
+  "liste": "2026-S45",
+  "basiques": 45,
+  "note": "Midis maison mer, jeu, ven · lunchbox lun et mar · mardi soir absents · déjà à la maison : chou-fleur (à rôtir dimanche avec le poisson), courgette, fenouils, persil, coriandre, aneth, œufs, cannellonis · sauce bolognaise à lancer dimanche après-midi · basiques = pain, petit-déj, goûters, fruits (35 €) + garde 2 jours (10 €).",
+  "recettes": [
+    {
+      "jour": "Dim 1",
+      "repas": "midi",
+      "titre": "Poisson croustillant à l'aneth et câpres frites",
+      "slug": "poisson-croustillant-a-l-aneth-et-capres-frites",
+      "livre": "Something from Nothing",
+      "page": 300,
+      "cout": 15
+    },
+    {
+      "jour": "Dim 1",
+      "repas": "soir",
+      "titre": "Croque-monsieur maison",
+      "slug": "croque-monsieur-maison",
+      "livre": "Frichti",
+      "page": 38,
+      "cout": 12
+    },
+    {
+      "jour": "Lun 2",
+      "repas": "soir → lunchbox mar",
+      "titre": "Kuku sabzi, sauce au yaourt et salade d'endives",
+      "slug": "kuku-sabzi-sauce-au-yaourt-et-salade-d-endives",
+      "livre": "Daylycieux",
+      "page": 32,
+      "cout": 8
+    },
+    {
+      "jour": "Mer 4",
+      "repas": "midi",
+      "titre": "Nouilles, soja et cébettes",
+      "slug": "nouilles-soja-et-cebettes",
+      "livre": "Daylycieux",
+      "page": 72,
+      "cout": 6
+    },
+    {
+      "jour": "Mer 4",
+      "repas": "soir → jeu midi",
+      "titre": "Salade de chou-fleur et d'œufs à la reine",
+      "slug": "salade-de-chou-fleur-et-d-ufs-a-la-reine",
+      "livre": "Ottolenghi Simple",
+      "page": 98,
+      "cout": 10
+    },
+    {
+      "jour": "Jeu 5",
+      "repas": "soir → ven midi",
+      "titre": "Cannellonis à la bolognaise au fenouil",
+      "slug": "bolognaise-au-fenouil-bolognese-with-fennel-en-cannellonis",
+      "livre": "Something from Nothing",
+      "page": 246,
+      "cout": 26
+    },
+    {
+      "jour": "Sam 7",
+      "repas": "soir → dim 8 midi",
+      "titre": "Carbonades flamandes",
+      "slug": "carbonades-flamandes",
+      "livre": "Whoogy's tome 2",
+      "page": 206,
+      "cout": 22
+    }
+  ]
+}
