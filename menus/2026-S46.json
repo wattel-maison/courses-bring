@@ -1,0 +1,81 @@
+{
+  "semaine": "S46",
+  "dates": "du samedi 7 (midi) au samedi 14 novembre 2026",
+  "liste": "2026-S46",
+  "basiques": 56,
+  "note": "Sam 7 soir apéro dehors · midis lun et mar absents · midis maison mer, jeu, ven · déjà à la maison : chou-fleur, butternut, 2 potimarrons, mayo · salade de fenouil avec chaque plat · basiques = pain, petit-déj, fruits (35 €) + fenouil (5) + garde 2 jours (10) + lait de croissance (6).",
+  "recettes": [
+    {
+      "jour": "Sam 7",
+      "repas": "midi",
+      "titre": "Salade de chou-fleur et d'œufs à la reine",
+      "slug": "salade-de-chou-fleur-et-d-ufs-a-la-reine",
+      "livre": "Ottolenghi Simple",
+      "page": 98,
+      "cout": 12
+    },
+    {
+      "jour": "Dim 8",
+      "repas": "midi",
+      "titre": "Carbonades flamandes",
+      "slug": "carbonades-flamandes",
+      "livre": "Whoogy's tome 2",
+      "page": 206,
+      "cout": 22
+    },
+    {
+      "jour": "Dim 8",
+      "repas": "soir",
+      "titre": "Poisson croustillant, purée de petits pois à la menthe",
+      "slug": "poisson-croustillant-puree-de-petits-pois-a-la-menthe-et-pommes-de-terre-au-beurre",
+      "livre": "Daylycieux",
+      "page": 84,
+      "cout": 18
+    },
+    {
+      "jour": "Lun 9",
+      "repas": "soir (3 parts au congélateur)",
+      "titre": "Minestrone",
+      "slug": "minestrone",
+      "livre": "Daylycieux",
+      "page": 160,
+      "cout": 9
+    },
+    {
+      "jour": "Mar 10",
+      "repas": "soir → mer midi",
+      "titre": "Nuggets de poulet et pommes de terre au four",
+      "slug": "nuggets-de-poulet-et-pommes-de-terre-au-four",
+      "livre": "Frichti",
+      "page": 156,
+      "cout": 13
+    },
+    {
+      "jour": "Mer 11",
+      "repas": "soir → jeu midi",
+      "titre": "Butternut rôtie aux lentilles et au gorgonzola",
+      "slug": "butternut-rotie-aux-lentilles-et-au-gorgonzola",
+      "livre": "Ottolenghi Simple",
+      "page": 119,
+      "cout": 10
+    },
+    {
+      "jour": "Jeu 12",
+      "repas": "soir → ven midi",
+      "titre": "Orecchiette aux brocolis et crème de parmesan",
+      "slug": "orecchiette-aux-brocolis-et-creme-de-parmesan",
+      "livre": "Frichti",
+      "page": 140,
+      "cout": 12
+    },
+    {
+      "jour": "Ven 13",
+      "repas": "soir → sam midi",
+      "titre": "Velouté de potimarron",
+      "slug": "veloute-de-potimarron",
+      "livre": "Frichti",
+      "page": 66,
+      "cout": 8
+    }
+  ]
+}
