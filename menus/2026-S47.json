@@ -1,0 +1,14 @@
+{
+  "semaine": "S47",
+  "dates": "du lundi 16 (soir) au samedi 21 novembre 2026 (midi)",
+  "liste": "2026-S47",
+  "basiques": 55,
+  "note": "Lundi midi hors menu · mardi midi Alexandre seul · on cuisine le soir pour 2 repas, le lendemain midi = restes · déjà à la maison : potimarron, carottes, 1 poivron, 2 fenouils, orecchiette 500 g · salade de fenouil avec chaque plat · basiques = pain (16), petit-déj/fruits/laitages (20), fenouil (3), garde 2 jours (10), lait de croissance (6). Super U du 15/11 (51,54 €) déjà payé.",
+  "recettes": [
+    {"jour": "Lun 16", "repas": "soir → mar midi + mar soir", "titre": "Velouté potimarron-carottes", "slug": "veloute-de-potimarron", "livre": "Frichti", "page": 66, "cout": 6},
+    {"jour": "Mer 18", "repas": "midi", "titre": "Riz cantonais", "slug": null, "livre": "Daylycieux", "page": 18, "cout": 8},
+    {"jour": "Mer 18", "repas": "soir → jeu midi", "titre": "Orecchiette aux brocolis et crème de parmesan", "slug": "orecchiette-aux-brocolis-et-creme-de-parmesan", "livre": "Frichti", "page": 140, "cout": 11},
+    {"jour": "Jeu 19", "repas": "soir → ven midi", "titre": "Dahl vert de lentilles et pois chiches", "slug": null, "livre": "Whoogy's tome 2", "page": 216, "cout": 8},
+    {"jour": "Ven 20", "repas": "soir → sam midi", "titre": "Bœuf et carottes qui mijotent", "slug": null, "livre": "Daylycieux", "page": 172, "cout": 18}
+  ]
+}
