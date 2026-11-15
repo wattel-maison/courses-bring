@@ -26,19 +26,19 @@
     {
       "jour": "Mer 18",
       "repas": "soir → jeu midi",
-      "titre": "Orecchiette aux brocolis et crème de parmesan",
-      "slug": "orecchiette-aux-brocolis-et-creme-de-parmesan",
-      "livre": "Frichti",
-      "page": 140,
+      "titre": "Dahl vert de lentilles et pois chiches",
+      "slug": "dahl-vert-de-lentilles-et-pois-chiches",
+      "livre": "Whoogy's tome 2",
+      "page": 216,
       "cout": 11
     },
     {
       "jour": "Jeu 19",
       "repas": "soir → ven midi",
-      "titre": "Dahl vert de lentilles et pois chiches",
-      "slug": "dahl-vert-de-lentilles-et-pois-chiches",
-      "livre": "Whoogy's tome 2",
-      "page": 216,
+      "titre": "Orecchiette aux brocolis et crème de parmesan",
+      "slug": "orecchiette-aux-brocolis-et-creme-de-parmesan",
+      "livre": "Frichti",
+      "page": 140,
       "cout": 11
     },
     {
