@@ -67,7 +67,7 @@ ul.notes{padding-left:22px;color:var(--body)}
 .recipes a small{display:block;color:var(--muted);font-weight:400;margin-top:4px;font-size:13px}
 .recipes a:hover{text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.08)}
 footer{color:var(--muted);font-size:13px;text-align:center;padding:30px 0}
-@media (max-width:600px){td,th{padding-left:4px;padding-right:4px}.btn{width:100%}}
+@media (max-width:600px){td,th{padding-left:4px;padding-right:4px}.btn{width:100%}.card{padding:18px 14px}table{font-size:15px}td.day{white-space:normal;width:28%;font-size:13px}td{overflow-wrap:anywhere}}
 """
 
 def page(title, body, depth=0, active=""):
