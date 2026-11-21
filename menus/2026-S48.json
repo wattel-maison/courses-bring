@@ -1,0 +1,36 @@
+{
+  "semaine": "S48",
+  "dates": "du samedi 21 (midi) au jeudi 26 novembre 2026",
+  "liste": "2026-S48",
+  "basiques": 91,
+  "note": "Samedi midi steak-patates, samedi soir absents · midis maison lundi et mercredi, mardi midi Alexandre seul · personne jeudi soir, week-end dès vendredi · carottes déjà à la maison · repas simples : dimanche soir sardines-salade, mercredi midi omelette-salade, mercredi soir pain-fromages · salade de fenouil avec chaque plat · basiques = steak-patates (14), sardines (12), omelette (6), fromages (8), pain (12), petit-déj/fruits/laitages (18), fenouil (5), garde 2 jours (10), lait de croissance (6).",
+  "recettes": [
+    {
+      "jour": "Dim 22",
+      "repas": "midi → lun midi",
+      "titre": "Bœuf et carottes qui mijotent",
+      "slug": "b-uf-et-carottes-qui-mijotent",
+      "livre": "Daylycieux",
+      "page": 172,
+      "cout": 24
+    },
+    {
+      "jour": "Lun 23",
+      "repas": "soir → mar midi + mar soir",
+      "titre": "Soupe de lasagnes à la tomate",
+      "slug": "soupe-de-lasagnes-a-la-tomate",
+      "livre": "Daylycieux",
+      "page": 16,
+      "cout": 14
+    },
+    {
+      "jour": "Mer 25",
+      "repas": "soir (avec pain et fromages)",
+      "titre": "Salade endives, mâche et comté",
+      "slug": "salade-endives-mache-et-comte",
+      "livre": "Frichti",
+      "page": 86,
+      "cout": 8
+    }
+  ]
+}
