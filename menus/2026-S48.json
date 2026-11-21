@@ -3,7 +3,7 @@
   "dates": "du samedi 21 (midi) au jeudi 26 novembre 2026",
   "liste": "2026-S48",
   "basiques": 91,
-  "note": "Samedi midi steak-patates, samedi soir absents · midis maison lundi et mercredi, mardi midi Alexandre seul · personne jeudi soir, week-end dès vendredi · carottes déjà à la maison · repas simples : dimanche soir sardines-salade, mercredi midi omelette-salade, mercredi soir pain-fromages · salade de fenouil avec chaque plat · basiques = steak-patates (14), sardines (12), omelette (6), fromages (8), pain (12), petit-déj/fruits/laitages (18), fenouil (5), garde 2 jours (10), lait de croissance (6).",
+  "note": "Samedi midi steak-patates, samedi soir absents · midis maison lundi et mercredi, mardi midi Alexandre seul · personne jeudi soir, week-end dès vendredi · carottes déjà à la maison · repas simples : dimanche soir sardines-salade, mardi midi omelette-salade (Alexandre), mercredi soir pain-fromages · salade de fenouil avec chaque plat · basiques = steak-patates (14), sardines (12), omelette (6), fromages (8), pain (12), petit-déj/fruits/laitages (18), fenouil (5), garde 2 jours (10), lait de croissance (6). Soupe de lasagnes pour 1 repas seulement (les pâtes se réchauffent mal).",
   "recettes": [
     {
       "jour": "Dim 22",
@@ -16,12 +16,21 @@
     },
     {
       "jour": "Lun 23",
-      "repas": "soir → mar midi + mar soir",
+      "repas": "soir (1 repas)",
       "titre": "Soupe de lasagnes à la tomate",
       "slug": "soupe-de-lasagnes-a-la-tomate",
       "livre": "Daylycieux",
       "page": 16,
-      "cout": 14
+      "cout": 10
+    },
+    {
+      "jour": "Mar 24",
+      "repas": "soir → mer midi",
+      "titre": "Haricots blancs gratinés aux champignons et au parmesan",
+      "slug": "haricots-blancs-gratines-aux-champignons-et-au-parmesan",
+      "livre": "Alison Roman",
+      "page": 174,
+      "cout": 13
     },
     {
       "jour": "Mer 25",
